@@ -1,0 +1,93 @@
+2014/07/11 20:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "App/Widgets".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('App/Widgets')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admintheme/index.php?r=App/Widgets
+HTTP_REFERER=http://localhost:89/admintheme/index.php
+---
+2014/07/11 20:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "App/Widgets".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('App/Widgets')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admintheme/index.php?r=App/Widgets
+HTTP_REFERER=http://localhost:89/admintheme/index.php?r=App/Widgets
+---
+2014/07/11 20:13:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "App/Widgets".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('App/Widgets')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admintheme/index.php?r=App/Widgets
+HTTP_REFERER=http://localhost:89/admintheme/index.php
+---
+2014/07/11 20:13:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "App/Widgets".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('App/Widgets')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admintheme/index.php?r=App/Widgets
+HTTP_REFERER=http://localhost:89/admintheme/index.php
+---
+2014/07/11 20:16:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "App/Widgets".' in C:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('App/Widgets')
+#1 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admintheme/index.php?r=App/Widgets
+HTTP_REFERER=http://localhost:89/admintheme/index.php?r=App/Widgets
+---
+2014/07/11 20:16:34 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//pages/widgets".' in C:\xampp\htdocs\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('//pages/widgets', NULL, true)
+#1 C:\xampp\htdocs\admintheme\protected\controllers\SiteController.php(11): CController->render('//pages/widgets')
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionWidgets()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('Widgets')
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/Widgets')
+#8 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admintheme/index.php?r=Site/Widgets
+HTTP_REFERER=http://localhost:89/admintheme/index.php?r=App/Widgets
+---
+2014/07/11 20:16:51 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "//pages/widgets".' in C:\xampp\htdocs\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('//pages/widgets', NULL, true)
+#1 C:\xampp\htdocs\admintheme\protected\controllers\SiteController.php(11): CController->render('//pages/widgets')
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionWidgets()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('Widgets')
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/Widgets')
+#8 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admintheme/index.php?r=Site/Widgets
+HTTP_REFERER=http://localhost:89/admintheme/index.php?r=App/Widgets
+---
+2014/07/11 20:22:43 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "pages/charts/morris".' in C:\xampp\htdocs\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('pages/charts/mo...', NULL, true)
+#1 C:\xampp\htdocs\admintheme\protected\controllers\SiteController.php(15): CController->render('pages/charts/mo...')
+#2 C:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionMorris()
+#3 C:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('Morris')
+#7 C:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/Morris')
+#8 C:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\admintheme\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admintheme/index.php?r=Site/Morris
+HTTP_REFERER=http://localhost:89/admintheme/index.php
+---
